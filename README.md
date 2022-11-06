@@ -11,7 +11,7 @@ Python, Selenium, Pytest
 - склонировать проект на локальную машину
 `git clone https://github.com/remak/autotests_demowebshop.git`
 
-- создать виртуальное окружение любым способом (venv для примера):
+- создать виртуальное окружение в директории с тестами любым способом (venv для примера):
 `python -m venv venv`
 
 - активировать виртуальное окружение
@@ -31,7 +31,7 @@ Python, Selenium, Pytest
 **Параметры запуска:**
 - `--browser` - выбор браузера для прогона тестов
 
-   *chrome* (по умолчанию), *firefox*, *opera*
+   *chrome* (по умолчанию), *firefox*
 
 - `--headless` - включение режима *headless*
 
