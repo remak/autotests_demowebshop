@@ -8,6 +8,16 @@ Python, Selenium, Pytest
 
 
 ### Подготовка проекта:
+- склонировать проект на локальную машину
+`git clone https://github.com/remak/autotests_demowebshop.git`
+
+- создать виртуальное окружение любым способом (venv для примера):
+`python -m venv venv`
+
+- активировать виртуальное окружение
+`source /venv/bin/activate` в linux
+`venv\Scripts\activate.bat` в windows
+
 - установить необходимые пакеты
 `pip install -r /path/to/requirements.txt`
 
@@ -27,6 +37,6 @@ Python, Selenium, Pytest
 
    *False* (по умолчанию), *True*
 
-- `--selenoid` - включение прогодна на *Selenoid*
+- `--selenoid` - включение прогона на *Selenoid* (требует установки и настройки самого Selenoid) 
   
    *False* (по умолчанию), *True*
